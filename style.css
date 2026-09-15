@@ -2,6 +2,7 @@
        --branco-principal: #FFFFFF;
        --cinza-secundario: #C0C0C0;
        --botao-azul: #167BF7;
+       --cor-de-fundo: #00030C;
    }
    * {
        margin: 0;
@@ -11,4 +12,13 @@ body {
         background-color: var(--cor-de-fundo);
         color: var(--branco-principal);
 }
+.container {
+        height: 100vh;
+}
+.principal {
+        background-image: url("Background.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+}
+
 
